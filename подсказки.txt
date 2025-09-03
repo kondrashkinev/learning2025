@@ -1,0 +1,30 @@
+Power Shell
+
+1. git --version
+2. git config --global user.name <..> 
+3. git config --global user.email <..>
+4. git config --list
+	gitk - редактор
+
+5. echo "Some text" > file.txt   //создание file.txt с текстом "Some text"
+6. cat file.txt                  //просмотр файла
+7. rm file.txt                  //удаление файла
+8. ls -Force                  //просмотр папки
+
+9. git init        				//создание нового git репозитория
+10. git branch -m <name>  		//новое имя для текущей ветки
+
+11. git status
+
+12. git add.    		//добавляет все файлы (которые создали в раб. дирректории) в индекс #подготовить
+13. git add test.txt    //добавляет файл test.txt в индекс
+14. git commit      // сохраняет commit и указывает на текущую версию проекта (сохраняет файлы в репозиторий) #сохранить
+14.1 git commit -m "Comment Comit"      
+15. git checkout      //перейти к определённой версии проекта (гит берет файлы из репозитория и перемещает их в раб. дирректорию, поэтому раб. дирректория перезаписывается)
+
+
+
+
+ 
+
+
